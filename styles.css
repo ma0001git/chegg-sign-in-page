@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 4px #EB7100;
+}
+
+.nav-title {
+    color: #EB7100;
+    font-size: 30px;
+    font-weight: 600;
+    width: 60%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    display: flex;
+    justify-content: end;
+    width: 60%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    border: solid 10px #E3E3E3;
+    border-radius: 15px;
+    padding: 0px 30px;
+    margin-top: 50px;
+}
+
+.form-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 27px;
+    margin-bottom: 15px;
+}
+
+.form-sub-title {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    color: #555555;
+    font-weight: 300;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    font-size: 36px;
+    border: solid 2px #E3E3E3;
+    border-radius: 10px;
+}
+
+input[type="text"]
+{
+    font-size:20px;
+    font-weight: 100;
+    padding-left: 25px;
+    height: 52px;
+}
+
+.email-input {
+    border-bottom: solid 2px #E3E3E3;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.password-input {
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.divider {
+    margin: 15px 0px;
+    color: #887876;
+}
+
+.social-links {
+    width: 360px;
+    margin-bottom: 50px;
+    display: flex;
+    padding: 5px 0px 5px 0px;
+}
+
+.social-links img {
+    height: 20px;
+    width: 20px;
+    padding-right: 5px;
+}
+
+.apple-sign-in {
+    background-color: white;
+    border: solid 1px #E3E3E3;
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.facebook-sign-in {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    border: solid 1px #e3e3e3;
+    height: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.google-sign-in {
+    background-color: white;
+    border: solid 1px #E3E3E3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 100%;
+    border-radius: 0px 5px 5px 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.sign-in-button {
+    width: 360px;
+    height: 52px;
+    background-color: #EB7100;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0px 15px 0px;
+    border: none;
+    border-radius: 8px;
+}
+
+.sign-up-text {
+    font-size: 15px;
+    margin: 15px 0px 0px 0px;
+}
+
+.sign-up-link {
+    text-decoration: none;
+}
+
+.forgot-password-text {
+    font-size: 15px;
+    margin: 10px 0px 15px 0px;
+}
+
+.forgot-password-link {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 580px) {
+    .nav-title {
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    .form-container {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .form {
+        border: solid 8px #E3E3E3;;
+        padding: 0px 10px;
+        margin-top: 25px;
+    }
+    
+    .form-title {
+        font-size: 25px;
+    }
+    
+    .input-container {
+        width: 320px;
+    }
+    
+    .divider {
+        color: #887876;
+    }
+    
+    .social-links {
+        width: 320px;
+    }
+    
+    .sign-in-button {
+        width: 320px;
+    }
+    
+    .sign-up-text {
+        font-size: 15px;
+        margin: 15px 0px 0px 0px;
+    }
+}
